@@ -1,0 +1,45 @@
+html {
+  background-color: black;
+}
+.container {
+  width: 100vw;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+h2 {
+  color: white;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  align-items: center;
+  padding: 60px;
+  border-radius: 15px;
+  gap: 1.5em;
+}
+form input {
+  width: 100%;
+  padding: 15px;
+}
+form button {
+  background-color: black;
+  width: 100%;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+}
+form button:hover {
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+  transition: 0.5s;
+}
+
+.error {
+  color: rgb(175, 6, 6);
+
+}
